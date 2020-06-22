@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .tree__node-list,
+        .node-item__list {
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+
+        .node-item {
+            position: relative;
+            display: block;
+            list-style: none;
+            border-left: 1px solid black;
+            padding: 10px 0 10px 25px;
+        }
+
+        .node-item::before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: 0;
+            display: block;
+            width: 20px;
+            border-bottom: 1px solid black;
+        }
+
+        .edit-node__content > button {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .edit-node__content:hover > button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="dist/main.js"></script>
+</body>
+</html>

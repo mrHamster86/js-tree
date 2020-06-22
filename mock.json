@@ -1,0 +1,64 @@
+{
+  "name": "Base tree",
+  "nodes": [
+    {
+      "name": "leve 1, element 1",
+      "id": "2e46-e4ed-55bd-f3a3",
+      "nodes": []
+    },
+    {
+      "name": "leve 1, element 2",
+      "id": "8713-252e-5fbb-cd59",
+      "nodes": [
+        {
+          "name": "level 2, element 1",
+          "id": "f761-a09d-e462-56a8",
+          "nodes": []
+        },
+        {
+          "name": "level 2, element 2",
+          "id": "a190-89b6-27ac-4446",
+          "nodes": []
+        }
+      ]
+    },
+    {
+      "name": "leve 1, element 3",
+      "id": "a92a-5d16-a284-9d33",
+      "nodes": [
+        {
+          "name": "level 2, element 1",
+          "id": "465c-96cd-42de-6d35",
+          "nodes": []
+        },
+        {
+          "name": "level 2, element 2",
+          "id": "6eed-91e9-fa13-9c3a",
+          "nodes": [
+            {
+              "name": "level 3, element 1",
+              "id": "71cd-962c-8871-5de6",
+              "nodes": []
+            },
+            {
+              "name": "level 3, element 2",
+              "id": "b0e8-3ea7-ae11-765e",
+              "nodes": [
+                {
+                  "name": "level 4, element 1",
+                  "id": "bd47-5d4b-0dbb-0418",
+                  "nodes": []
+                },
+                {
+                  "name": "level 4, element 2",
+                  "id": "42d4-d542-5662-0f2e",
+                  "nodes": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
